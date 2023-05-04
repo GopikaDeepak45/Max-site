@@ -8,6 +8,12 @@ body{
     --red:#dd0e1d;
     --border:rgb(197, 193, 193);
 }
+header{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
 header a{
     cursor: pointer;
 }
@@ -106,7 +112,6 @@ font-weight: 600;
 .offer-div{
     background-color:var(--red);
     height: 40px;
-    margin-top: 7px;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
